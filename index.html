@@ -15,6 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/cb0ba909e4.js" crossorigin="anonymous"></script>
     <!-- CSS Style -->
     <style>
         .font-poppins {
@@ -29,6 +31,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'btn-primary-clr': '#B68C5A',
                     }
                 }
             }
@@ -37,17 +40,74 @@
     <title>Legal Solutions</title>
 </head>
 
-<body>
-    <!-- HEader -->
-    <header>
+<body class="font-poppins">
+    <!-- Haader -->
+    <header class="w-[80%] md:mx-auto">
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+                    <img src="images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-btn-primary-clr text-white">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
 
+        <!-- hero part -->
+        <div class="hero h-[550px] mt-14 rounded-md overflow-hidden"
+            style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="w-[90%] md:w-[70%] lg:w-1/2 mx-auto">
+                    <h1 class="mb-5 text-5xl font-bold text-[#FFFFFF]">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 text-[#E7E7E7]">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                    <div class="flex space-x-3">
+                        <input type="text" placeholder="Search your services"
+                            class="input input-bordered w-full md:max-w-[80%] max-w-[70%]" />
+                        <button class="btn bg-btn-primary-clr border-none text-white">Search</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- main -->
 
-    <main>
-
-
+    <main class="w-[80%] md:mx-auto">
+        
     </main>
 
     <!-- footer -->
