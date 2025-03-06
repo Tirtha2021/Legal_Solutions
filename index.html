@@ -324,7 +324,7 @@
             </div>
 
             <!-- hero part -->
-            <div class="hero">
+            <div class="">
                 <div class="hero-content flex-col lg:flex-row-reverse lg:h-[580px] lg:justify-between">
                     <!-- image part -->
                     <img class="lg:w-[450px] w-full" src="images/faq.png" alt="">
@@ -375,11 +375,123 @@
                 </div>
             </div>
         </div>
+
+        <!-- Contact -->
+        <div class="py-16">
+            <!-- title -->
+            <div class="text-center mx-auto w-3/4 md:w-1/2">
+                <h1 class="text-5xl font-bold">Contact With Us</h1>
+                <p class="text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour.
+                </p>
+            </div>
+
+            <!-- card and input part -->
+            <div class="pt-16 flex  flex-col lg:flex-row gap-5">
+                <!-- card part -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 text-center lg:w-1/2 lg:gap-0 gap-5">
+                    <!-- card1 -->
+                    <div class=" bg-stone-100 border-[#CFCFCF] border-b-2 border-r-2 ">
+                        <figure class="pt-8 flex justify-center">
+                            <img src="images/address.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="text-center space-y-2">
+                            <h2 class="text-lg font-semibold">Address</h2>
+                            <p class="text-gray-600">
+                                A108 Adam Street,<br>New York, NY 535022
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class=" bg-stone-100 border-[#CFCFCF] border-b-2">
+                        <figure class=" pt-8 flex justify-center">
+                            <img src="images/call.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="text-center space-y-2">
+                            <h2 class="text-lg font-semibold">Address</h2>
+                            <p class="text-gray-600">
+                                A108 Adam Street,<br>New York, NY 535022
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class=" bg-stone-100 border-[#CFCFCF] border-r-2">
+                        <figure class=" pt-8 flex justify-center">
+                            <img src="images/email.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="text-center space-y-2">
+                            <h2 class="text-lg font-semibold">Address</h2>
+                            <p class="text-gray-600">
+                                A108 Adam Street,<br>New York, NY 535022
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card4 -->
+                    <div class=" bg-stone-100">
+                        <figure class=" pt-8 flex justify-center">
+                            <img src="images/time.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="text-center space-y-2">
+                            <h2 class="text-lg font-semibold">Address</h2>
+                            <p class="text-gray-600">
+                                A108 Adam Street,<br>New York, NY 535022
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- input part -->
+                <div class="card lg:w-1/2 w-full">
+                    <form class="">
+                        <div class="form-control">
+                            <input type="text" placeholder="Your Name" class="input input-bordered" required /><br>
+                            <input type="email" placeholder="Your Email" class="input input-bordered" required /><br>
+                            <input type="text" placeholder="Subject" class="input input-bordered" required /><br>
+                            <textarea class="textarea border border-stone-300 " placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-control mt-6">
+                            <button class="btn bg-btn-primary-clr text-white">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- footer -->
-    <footer>
-
+    <footer class="footer bg-[#111111] text-white p-10">
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text text-white">Enter your email address</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                    <button class="btn bg-btn-primary-clr join-item">Subscribe</button>
+                </div>
+            </fieldset>
+        </form>
     </footer>
 </body>
 
